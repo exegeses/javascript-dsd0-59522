@@ -3,5 +3,5 @@
 let num = 0; //hardcoding
 //let nombre = 'marcos'; 
 let nombre = prompt('ingrese su nombre');
-document.write( nombre );
+document.write( 'Bienvenido: ' + nombre ); //concatenación
 
