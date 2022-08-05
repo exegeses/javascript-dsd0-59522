@@ -46,7 +46,7 @@ input{
 }
 .italianos{
     list-style-type: none;
-    padding: 4px 0px;
+    padding: 8px 0px;
     text-transform: uppercase;
     border-bottom: 2px #fff solid;
     width: 400px;
@@ -59,4 +59,8 @@ input{
     .italianos a{
         text-decoration: none;
         color: #707070;
+        transition: 0.3s;
+    }
+    .italianos:hover a{
+        color: #f60;
     }
