@@ -18,14 +18,18 @@ let urls = [
     'https://www.fiat.com',
     'https://mazzantiautomobili.it',
     'http://www.fornasaricars.com',
-    'http://www.abarth.com'
+    '#'
 ];
 let cantidad = italianos.length;
 document.write('<ul>');
 for( let i = 0; i < cantidad; i++ )
 {
     document.write('<li class="italianos">');
-    document.write('<a href="'+ urls[i] +'" target="_blank">');
+    document.write('<a href="'+ urls[i] +'"');
+    if( urls[i] !=  '#' ){
+        document.write( ' target="_blank"');
+    }
+    document.write('>');
     document.write( italianos[i] );
     document.write('</a>');
     document.write('</li>');

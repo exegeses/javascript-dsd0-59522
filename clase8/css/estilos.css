@@ -64,3 +64,11 @@ input{
     .italianos:hover a{
         color: #f60;
     }
+
+label{
+    height: 124px;
+    display: inline-block;
+}
+    label #errNombre{
+        color: #e10600;
+    }
