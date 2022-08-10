@@ -7,7 +7,7 @@ formulario.addEventListener(
     'submit',
     function ( evento)
     {
-        //evitamos eel envío del form
+        //evitamos el envío del form
         evento.preventDefault();
 
         //capturamos el dato "escrito" en el campo nombre
